@@ -1,0 +1,131 @@
+/*@import "reset.css";*/
+
+body{
+	background-color: #acd1ff;
+}
+
+table{
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+	/*margin: 0px auto;*/
+	background: #fff url(../img/sea.jpg) no-repeat;
+	background-size: 707px 707px;
+}
+
+table:hover{
+	cursor: pointer;
+}
+
+td{
+	padding: 0;
+	width: 100px;
+	height: 100px;
+	border: 1px solid #fff;
+}
+
+td:hover{
+	border: 2px solid #f00;
+}
+
+#output{
+	font-size: 20px;
+	text-align: center;
+	width: 400px;
+	height: 60px;
+	margin: 65px auto 0;
+	background-color: white;
+	border: 3px solid green;
+	border-radius: 5px;
+}
+
+#wrapper{
+	width: 810px;
+	height: 900px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#up_abc{
+	width: 707px;
+	height: 100px;
+	margin: 0 100px;
+	line-height: 120px;
+	box-sizing: border-box;
+	padding-left: 50px;
+}
+
+#left_abc{
+	width: 100px;
+	height: 707px;
+	margin: 0;
+	float: left;
+	line-height: 100px;
+	box-sizing: border-box;
+	padding-left: 50px;
+}
+
+#up_abc, #left_abc{
+	text-align: center;
+	font-size: 35px;
+	letter-spacing: 80px;
+}
+
+.input_wrapper{
+	width: 550px;
+	margin: 0 auto;
+}
+
+input{
+	height: 40px;
+	width: 60px;
+	font-size: 30px;
+	border: 2px solid gold;
+	border-radius: 3px;
+	margin-left: 20px;
+}
+
+input:focus{
+	border: 2px solid red;
+}
+
+label{
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 60px
+}
+
+button{
+	font-size: 20px;
+	background-color: red;
+	color: white;
+	border: 2px solid darkred;
+	border-radius: 3px;
+}
+.hit{
+	background-color: rgba(204,102,102,0.7);
+}
+.miss{
+	background-color: rgba(102,102,102,0.7);
+}
+
+#left_abc > div > span{
+	letter-spacing: 10px;
+}
+
+/*============NAVBAR============*/
+
+nav.navbar ul.nav.navbar-nav li a:hover, .active{
+	background-color: gold;
+	border-radius: 9px;
+}
+
+ul.nav.navbar-nav li a{
+	font-size: 24px;
+}
+
+.navbar{
+	background-color: #96c5ff;
+}
+

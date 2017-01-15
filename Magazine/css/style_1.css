@@ -1,0 +1,186 @@
+@import url(reset.css);
+
+body{
+	font:13px/1.4 Arial, Verdana, Tahoma, sans-serif;
+	background: url(../images/main_bg.jpg);
+	color: #5e5e5e;
+}
+
+.clear{
+	clear: both;
+}
+
+p{
+	margin: 7px 0 13px 0;
+}
+
+a{
+	text-decoration: none;
+	color: #5e5e5e;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+h2{
+	font-size: 18px;
+	margin-bottom: 6px;
+}
+
+#header, #test-form{
+	min-width: 960px;
+	max-width: 1200px;
+	margin:0 auto;
+}
+
+#logo{
+	width: 241px;
+	height: 46px;
+	float: left;
+	margin:44px 0 42px 10px;
+}
+
+#banner{
+	width: 468px;
+	height: 60px;
+	float: right;
+	margin-top: 34px;
+	margin-right: 10px;
+}
+
+#top-menu{
+	min-width: 960px;
+	height: 49px;
+	background: url(../images/top_menu_bg.png) repeat-x;
+}
+
+#inner-menu, #wrapper{
+	min-width: 960px;
+	max-width: 1200px;
+	margin:0 auto;
+}
+
+#inner-menu ul li{
+	float: left;
+	text-transform: uppercase;
+	position: relative;
+
+}
+
+#inner-menu a{
+	color: #ebebeb;
+	font-size: 12px;
+	padding: 16px 15px;
+	display: block;
+}
+
+#inner-menu a:hover{
+	background: url(../images/menu_hover.png) repeat-x;
+	text-decoration: none;
+}
+
+#inner-menu .dropdown{
+	display: none;
+	position: absolute;
+	top: 100%;
+	width: 100px;
+}
+
+#inner-menu ul li:hover .dropdown{
+	display: block;
+}
+
+#inner-menu .dropdown li {
+	background: url(../images/top_menu_bg.png) repeat-x;
+	width:100%;
+}
+
+#content{
+	margin-right: 300px;
+	padding:15px 38px 0 10px;
+}
+
+.post{
+	border-bottom: 1px dashed #e5e5e5;
+	overflow: hidden;
+	margin-top:15px;
+}
+
+.thumbnail{
+	float: left;
+	margin-bottom: 15px;
+}
+
+.thumbnail img{
+	border: 3px solid #e0e0e0;
+}
+
+.post-content{
+	margin-left: 180px;
+}
+
+.post-categories, .post-publiched{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #aaaaaa;
+	margin: 0 0 3px 0;
+}
+
+#sidebar{
+	width: 300px;
+	float: right;
+}
+
+#sidebar h3{
+	font-size: 15px;
+	font-weight: bold;
+	color: #999999;
+	text-transform: uppercase;
+	padding-left: 22px;
+	margin: 26px 0 25px 0;
+	background: url(../images/sidebar_h3_bg.png) repeat-x 0 6px;
+}
+
+#sidebar h3 span{
+	padding: 0 8px;
+	background: url(../images/main_bg.jpg);
+}
+
+#sidebar form{
+	width: 220px;
+	margin: 0 auto;
+}
+
+#text-field{
+	width: 140px;
+	height: 31px;
+	background: url(../images/input_bg.png) no-repeat;
+	float: left;
+}
+
+#text-field input{
+	background: none;
+	border: none;
+	font-size: 12px;
+	color: #b1b1b1;
+	padding: 9px 10px;
+	width: 120px;
+	height: 13px;
+}
+
+.first-row, .second-row{
+	width: 270px;
+	margin: 0 auto;
+}
+
+.second-row{
+	margin-top: 14px;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}

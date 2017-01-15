@@ -1,0 +1,90 @@
+/*@import "reset.css";*/
+#wrapper{
+	width: 800px;
+	/*height: 800px;*/
+	margin: 50px auto;
+	border: 1px solid cyan;
+	padding: 20px;
+}
+/*==================================================*/
+body{
+	background-color: #acd1ff;
+}
+
+.img-answer{
+	cursor: pointer;
+	height: 350px;
+	width: 100%;
+	overflow: hidden;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.img-answer img{
+	width: 100%;
+	height: auto;
+}
+
+.bg-danger{
+	background-color: #df9393;
+}
+
+div.well-sm>div.row>div.col-md-6 img{
+	height: 100%;
+	width: 162px;
+}
+
+p{
+	margin-bottom: 3px;
+}
+
+.well{
+	background-color: rgb(220,220,220);
+}
+
+.top-buffer{
+	margin-top: 30px;
+}
+
+.answer{
+	padding: 15px 20px;
+	border-radius: 10px;
+	border:1px solid #bbb;
+}
+
+.answer:hover{
+	cursor: pointer;
+	background-color: #126712;
+}
+
+.image-selected{
+	border:3px solid #56afdc;
+}
+
+.image-answer.bg-success{
+	border: 3px solid #5ea640;
+}
+
+.image-answer.bg-danger{
+	border: 3px solid #b74848;
+}
+
+.page-header{
+	margin-top: 60px;
+}
+/*============NAVBAR============*/
+
+nav.navbar ul.nav.navbar-nav li a:hover, .active{
+	background-color: gold;
+	border-radius: 9px;
+}
+
+ul.nav.navbar-nav li a{
+	font-size: 24px;
+}
+
+.navbar{
+	background-color: #96c5ff;
+}
+/*============NAVBAR END============*/
+
